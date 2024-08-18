@@ -102,6 +102,6 @@
         <OutArgument x:TypeArguments="x:String" x:Key="FirstName">[firstname]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="YesNo" ChosenButton="[ButtonClicked]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;The user &quot; + firstname + &quot; says Hello World!&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="YesNo" ChosenButton="[ButtonClicked]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;The user &quot; + firstname + &quot; says Hello World!sfsdf&quot;]" />
   </Sequence>
 </Activity>
